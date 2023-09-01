@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+* {
+  text-align: center;
+}
+
+:root {
+  --primary: rgb(52, 57, 81);
+  --light: white;
+  --secondary: rgb(88, 109, 137);
+
+}
+
+.bi {
+  color: var(--primary);
+  font-size: 2.5rem;
+  margin: 10px
+}
+
+
+body {
+  background-color: var(--primary);
+  padding-top: 10%
+}
+
+#quote-box {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* This centers the element horizontally */
+  text-align: center; /* This centers the text within the element */
+}
+
+.quote-container {
+  margin: 0 auto;
+  background-color: var(--light);
+  border-radius: 5px;
+  padding: 25px;
+  color: var(--primary);
+  min-height: 200px;
+  width: 500px;
+}
+
+.button-container {
+  padding-top: 20px;
+}
+
+h1 {
+  color: var(--light);
+}
+
+blockquote {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 1.75em;
+  margin: 20px;
+}
+
+span {
+  padding-left: 50%;
+}
+
+cite {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: block;
+  text-align: right;
+  padding-right: 30px;
+}
+
+button {
+  min-width: 60px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: white;
+  padding: 12px;
+}
+
+button:hover {
+  transform: scale(1.05)
+}
+
+#copyright {
+  color: var(--light)
+}
